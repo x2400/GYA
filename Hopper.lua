@@ -18,5 +18,3 @@ for i,svr in pairs(servers) do
        server = svr
    end
 end
-
-game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, server.id)
